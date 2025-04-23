@@ -4,9 +4,9 @@
 class Dyhotomia_class
 {
 private:
-    double a{};
-    double b{};
-    double eps{1e-9};
+    double a;
+    double b;
+    double eps;
     static double f(double x);
 
 public:
